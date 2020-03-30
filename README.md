@@ -26,13 +26,13 @@ All supported mental actions:
 Note: The name of the mental action does not have to accurately match the actual action you are performing in real life.   
 For example, when training "push", you can think about closing a robotic hand, and when training "pull", you can think about opening the hand.   
 
-1. Start the training node: roslaunch emotiv_training train.launch   
-2. Start the command line interface: rosrun emotiv_training training_cli.py     
-3. Start a mental training session with command: mc_start   
-4. Train your neutral state (don't think about anything) with command: mc_neutral   
-5. Wait about 8 seconds.  
-6. Accept your neutral state with command: mc_accept   
-7. Start a new training session: mc_start   
-8. Train an action (ex: push)   
-9. Test the action on your hardware (ex: robotic hand)
-10. If the signal was good you will be prompted to accept the new data as an update to your profile.   
+2. Start the training node: roslaunch emotiv_training train.launch   
+3. Start the command line interface: rosrun emotiv_training training_cli.py     
+4. Start a mental training session with command: mc_start   
+5. Train your neutral state (don't think about anything) with command: mc_neutral   
+6. Wait about 8 seconds.  
+7. Accept your neutral state with command: mc_accept   
+8. Start a new training session: mc_start   
+9. Train an action (ex: push)   
+10. Test the action on your hardware (ex: robotic hand)
+11. If the signal was good you will be prompted to accept the new data as an update to your profile.   
