@@ -1,0 +1,9 @@
+<launch>
+
+    <param name="user_id" value="0"/>
+
+    <rosparam param="selected_actions">['push', 'pull']</rosparam>
+
+    <node name="emotiv" pkg="emotiv_training" type="emotiv_training_node" output="screen"/>
+
+</launch>
